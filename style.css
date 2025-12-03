@@ -1,0 +1,65 @@
+#logo{
+    height: 90px;/*altura */
+    width: 140px;/*largura */
+}
+ul {
+ display: flex;/*indica a propriedade FlexBox */
+ flex-direction: row;/*colocar os elelmentos na horizontal ou na vertical */
+
+}
+.id{
+    color: #686868;
+    text-decoration: none; /*Remover o sublinhado */
+    font-size: 15px;/*Tamanho da fonte */
+    padding: 20px; /*separa os titulos*/
+}
+    
+li a {
+ text-decoration: none; /*Remover o sublinhado */
+ font-size: 20px;/*Tamanho da fonte */
+ color: rgb(0, 0, 0);
+ padding: 20px; /*separa os titulos*/
+}
+
+li {
+ list-style: none;/*Remover formataçao da lista */
+
+}
+.menu {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ align-items: center;
+ background-color: rgb(255, 255, 255);
+}
+.btn-logo{
+ width: 175px;
+ height: 45px;
+ border-radius: 35px;/*borda do botao*/
+ background-color: #ff7b00;/*cor do botao*/
+ color: #ffffff;
+ font-weight: bold;/*fonte do botao*/
+ border: none;/*remove a borda*/
+ margin: 25px;/*espacamento externo*/
+}
+.section-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px; 
+}
+.banner{
+    background-image: url("./assets/bbefedc5e54293213050930488246d578b728422.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1500px;
+    height: 700px;
+    border-radius: 35px;
+ justify-content: center;
+}
+
+.texto-banner {
+    font-size: 70px;/*tamanho do titulo*/
+    color: #ffffff;
+   
+  }
